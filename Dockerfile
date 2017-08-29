@@ -2,9 +2,9 @@
 
 FROM java:8
 
-MAINTAINER Jayson Reis <santosdosreis@gmail.com>
+MAINTAINER Jeremy SEBAN
 
-ENV VERSION=3.0.6
+ENV VERSION=3.0.14
 
 RUN apt-get update && apt-get install -y wget unzip
 RUN addgroup --gid 1234 minecraft
